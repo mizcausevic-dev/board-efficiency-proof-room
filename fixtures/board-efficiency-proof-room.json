@@ -1,0 +1,230 @@
+{
+  "generatedAt": "2026-06-01T04:41:24.016Z",
+  "items": [
+    {
+      "id": "procurement-proof-answer-core",
+      "owner": "Procurement operations lead",
+      "audience": "Operating committee",
+      "track": "PROCUREMENT_TRUST",
+      "action": "PROVE",
+      "efficiencyTheme": "Show consolidation savings actually landed",
+      "boardQuestion": "Where do we already have realized savings proof that leadership can reuse with confidence?",
+      "currentPosture": "Procurement packaging is consolidated and cycle-time evidence is available, but the board still needs one cleaner proof packet.",
+      "requiredProof": "Cycle-time drop, duplicate wrapper retirements, and one surviving answer core.",
+      "realizedSavingsScore": 91,
+      "proofCompletenessScore": 88,
+      "leakageRiskScore": 24,
+      "ownerFollowThroughScore": 93,
+      "boardConfidenceScore": 89,
+      "urgencyScore": 66,
+      "realizedAnnualImpactMillions": 5.4,
+      "headline": "Procurement already has the cleanest realized-savings proof in the estate.",
+      "narrative": "This lane can anchor the efficiency story because duplicate work is retired, cycle-time evidence exists, and ownership stayed intact.",
+      "nextMove": "Package procurement cycle-time proof into one board-ready packet with wrapper-retirement evidence attached.",
+      "companyTags": [
+        "Procurement",
+        "Trust center",
+        "Questionnaires",
+        "RFP"
+      ],
+      "relatedSurfaces": [
+        "procurement.kineticgain.com",
+        "questionnaire.kineticgain.com",
+        "trust.kineticgain.com"
+      ],
+      "requiredEvidence": [
+        "Procurement Ready OS",
+        "Security Questionnaire Answer Studio",
+        "Trust Center Evidence Room"
+      ]
+    },
+    {
+      "id": "identity-tighten-owner-follow-through",
+      "owner": "Identity assurance sponsor",
+      "audience": "Risk committee",
+      "track": "IDENTITY_SECURITY",
+      "action": "TIGHTEN",
+      "efficiencyTheme": "Protect control quality while tightening execution proof",
+      "boardQuestion": "Which lane should stay funded but still needs tighter owner follow-through proof?",
+      "currentPosture": "Identity remains defensible, but remediation follow-through and cost-avoidance proof are not yet packaged cleanly for the board.",
+      "requiredProof": "Remediation closure timing, avoided exposure narrative, and ownership continuity.",
+      "realizedSavingsScore": 38,
+      "proofCompletenessScore": 57,
+      "leakageRiskScore": 63,
+      "ownerFollowThroughScore": 61,
+      "boardConfidenceScore": 84,
+      "urgencyScore": 74,
+      "realizedAnnualImpactMillions": 2.1,
+      "headline": "Identity needs tighter follow-through proof more than it needs a new savings target.",
+      "narrative": "The lane is strategically protected, but the operating story still needs stronger proof that owners closed the loop on efficiency and risk reduction.",
+      "nextMove": "Tighten remediation closure evidence and package cost-avoidance proof before the next board packet.",
+      "companyTags": [
+        "CyberArk",
+        "Okta",
+        "Entra",
+        "Intune"
+      ],
+      "relatedSurfaces": [
+        "identity.kineticgain.com",
+        "protect.kineticgain.com",
+        "guest.kineticgain.com"
+      ],
+      "requiredEvidence": [
+        "Identity Risk Evidence Ledger",
+        "Intune posture proof",
+        "Access review evidence"
+      ]
+    },
+    {
+      "id": "revenue-prove-margin-recovery",
+      "owner": "Revenue systems partner",
+      "audience": "CFO operating review",
+      "track": "REVENUE_SYSTEMS",
+      "action": "PROVE",
+      "efficiencyTheme": "Demonstrate that trimmed backlog turned into margin recovery",
+      "boardQuestion": "Where can we prove that efficiency moves produced cleaner margin instead of just fewer projects?",
+      "currentPosture": "Low-yield backlog is down, but leadership still needs one tighter proof room that shows what was cut and what margin stayed protected.",
+      "requiredProof": "Backlog reduction, margin recovery continuity, and reporting simplification evidence.",
+      "realizedSavingsScore": 77,
+      "proofCompletenessScore": 81,
+      "leakageRiskScore": 36,
+      "ownerFollowThroughScore": 82,
+      "boardConfidenceScore": 86,
+      "urgencyScore": 71,
+      "realizedAnnualImpactMillions": 4.6,
+      "headline": "Revenue can now prove that efficiency cuts protected the margin engine instead of weakening it.",
+      "narrative": "The CFO-safe story is no longer just about removing work; it is about showing the margin core stayed intact while noise and backlog fell.",
+      "nextMove": "Publish one margin-recovery packet that connects backlog reduction to protected yield and cleaner reporting.",
+      "companyTags": [
+        "Klaviyo",
+        "VWO",
+        "Power BI",
+        "Tableau"
+      ],
+      "relatedSurfaces": [
+        "revenue.kineticgain.com",
+        "leak.kineticgain.com",
+        "martech.kineticgain.com"
+      ],
+      "requiredEvidence": [
+        "Platform Margin Leak Report",
+        "Revenue Infrastructure Scorecard",
+        "Portfolio Benchmark Waterfall"
+      ]
+    },
+    {
+      "id": "fintech-escalate-proof-gaps",
+      "owner": "FinTech diligence lead",
+      "audience": "Investor diligence committee",
+      "track": "FINTECH",
+      "action": "ESCALATE",
+      "efficiencyTheme": "Escalate thin proof before making another board claim",
+      "boardQuestion": "Which lane still has too much leakage or too little proof to support a confident board story?",
+      "currentPosture": "Payments, treasury, merchant review, and KYC are live, but proof still fragments across fragile surfaces and ownership gaps.",
+      "requiredProof": "Unified proof on payout risk, queue health, and review closure across the FinTech stack.",
+      "realizedSavingsScore": 42,
+      "proofCompletenessScore": 45,
+      "leakageRiskScore": 83,
+      "ownerFollowThroughScore": 54,
+      "boardConfidenceScore": 58,
+      "urgencyScore": 79,
+      "realizedAnnualImpactMillions": 2.7,
+      "headline": "FinTech still needs escalation because the efficiency story is not board-safe yet.",
+      "narrative": "The right move is to escalate proof gaps and leakage instead of overclaiming realized efficiency that is still too fragile to defend.",
+      "nextMove": "Escalate FinTech proof gaps into one diligence packet before any new savings or investment claim reaches leadership.",
+      "companyTags": [
+        "Payments",
+        "Treasury",
+        "KYC",
+        "Merchant risk"
+      ],
+      "relatedSurfaces": [
+        "payments.kineticgain.com",
+        "treasury.kineticgain.com",
+        "merchant.kineticgain.com"
+      ],
+      "requiredEvidence": [
+        "Investor Diligence Pack",
+        "Treasury Liquidity Signal Lab",
+        "Merchant Risk Review Console",
+        "KYC Refresh Case Router"
+      ]
+    },
+    {
+      "id": "biotech-sustain-quality-proof",
+      "owner": "Quality systems sponsor",
+      "audience": "Regulated growth committee",
+      "track": "BIOTECH_DIAGNOSTICS",
+      "action": "SUSTAIN",
+      "efficiencyTheme": "Sustain the regulated stack and prove nothing critical slipped",
+      "boardQuestion": "Which regulated lane should be sustained because the efficiency story depends on zero control erosion?",
+      "currentPosture": "The quality and safety stack behaves like one mature operating layer, but leadership still wants proof that efficiency pressure did not degrade controls.",
+      "requiredProof": "Continuity proof across GxP, CAPA, specimen, safety, and narrative review.",
+      "realizedSavingsScore": 28,
+      "proofCompletenessScore": 86,
+      "leakageRiskScore": 22,
+      "ownerFollowThroughScore": 87,
+      "boardConfidenceScore": 94,
+      "urgencyScore": 63,
+      "realizedAnnualImpactMillions": 1.8,
+      "headline": "Biotech should sustain its current operating layer and prove control quality held through every efficiency move.",
+      "narrative": "The board story here is not bigger savings; it is that the regulated layer stayed intact while the estate got leaner around it.",
+      "nextMove": "Sustain the biotech stack and publish continuity proof that every regulated control held through the last efficiency cycle.",
+      "companyTags": [
+        "GxP",
+        "CAPA",
+        "Specimen",
+        "Safety"
+      ],
+      "relatedSurfaces": [
+        "gxp.kineticgain.com",
+        "capa.kineticgain.com",
+        "specimen.kineticgain.com",
+        "safety.kineticgain.com"
+      ],
+      "requiredEvidence": [
+        "GxP Change Control Board",
+        "Batch Deviation CAPA Ledger",
+        "Specimen Chain of Custody Console",
+        "Pharmacovigilance Signal Router"
+      ]
+    },
+    {
+      "id": "ai-prove-flagship-operating-leverage",
+      "owner": "AI operating partner",
+      "audience": "Board strategy committee",
+      "track": "AI_PLATFORM",
+      "action": "PROVE",
+      "efficiencyTheme": "Prove flagship leverage after satellite consolidation",
+      "boardQuestion": "Where can we show that consolidation produced operating leverage instead of just another AI narrative?",
+      "currentPosture": "AI satellites are collapsed into the flagship governance lane, but leadership still needs one concise proof room that shows leverage landed.",
+      "requiredProof": "Satellite retirements, flagship reuse, and board-memo reuse across the AI stack.",
+      "realizedSavingsScore": 74,
+      "proofCompletenessScore": 79,
+      "leakageRiskScore": 34,
+      "ownerFollowThroughScore": 81,
+      "boardConfidenceScore": 90,
+      "urgencyScore": 72,
+      "realizedAnnualImpactMillions": 4.3,
+      "headline": "AI can now prove operating leverage if flagship reuse and satellite retirements are shown together.",
+      "narrative": "The board story gets stronger when AI shows fewer wrappers, more flagship reuse, and one clearer decision spine instead of scattered wins.",
+      "nextMove": "Package flagship reuse, memo reuse, and retired satellite evidence into one operating-leverage packet.",
+      "companyTags": [
+        "IBM",
+        "Azure",
+        "OpenAI",
+        "MCP"
+      ],
+      "relatedSurfaces": [
+        "scorecard.kineticgain.com",
+        "memo.kineticgain.com",
+        "watsonx.kineticgain.com"
+      ],
+      "requiredEvidence": [
+        "AI Governance & Agent Readiness Scorecard",
+        "Executive Board Brief",
+        "Procurement Ready OS"
+      ]
+    }
+  ]
+}
