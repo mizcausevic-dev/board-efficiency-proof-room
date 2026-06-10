@@ -1,4 +1,5 @@
 import express from "express";
+import { pathToFileURL } from "node:url";
 import {
   renderDocs,
   renderEfficiencyLedger,
@@ -40,8 +41,9 @@ export function createApp() {
 }
 
 const port = Number(process.env.PORT || 4010);
+const isEntrypoint = process.argv[1] ? import.meta.url === pathToFileURL(process.argv[1]).href : false;
 
-if (process.env.NODE_ENV !== "test") {
+if (isEntrypoint && process.env.NODE_ENV !== "test") {
   createApp().listen(port, () => {
     console.log(`board-efficiency-proof-room listening on http://127.0.0.1:${port}`);
   });
