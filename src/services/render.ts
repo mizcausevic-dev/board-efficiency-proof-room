@@ -2,6 +2,9 @@ import { efficiencyLedger, ownerFollowThrough, payload, proofGaps, riskMap, summ
 
 const productTitle = "Board Efficiency Proof Room";
 const domain = "https://efficiency.kineticgain.com";
+const repoUrl = "https://github.com/mizcausevic-dev/board-efficiency-proof-room";
+const portfolioUrl = "https://portfolio.kineticgain.com/";
+const suiteUrl = "https://suite.kineticgain.com/";
 
 function escapeHtml(value: string) {
   return value
@@ -126,7 +129,9 @@ function shell(title: string, path: string, body: string, description: string) {
       <div class="footer">
         <span>${productTitle}</span>
         <a href="${domain}">${domain.replace("https://", "")}</a>
-        <a href="https://github.com/mizcausevic-dev/">GitHub</a>
+        <a href="${repoUrl}">Repo</a>
+        <a href="${portfolioUrl}">Portfolio command center</a>
+        <a href="${suiteUrl}">Kinetic Gain Suite</a>
         <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a>
         <a href="https://kineticgain.com/">Kinetic Gain</a>
       </div>
@@ -185,6 +190,36 @@ export function renderOverview() {
         <div class="metric"><span class="metric-label">Escalation lanes</span><span class="metric-value">${executiveSummary.escalationLanes}</span><div class="metric-copy">Lanes that still need escalation before another board claim lands.</div></div>
         <div class="metric"><span class="metric-label">Annual impact</span><span class="metric-value">$${executiveSummary.realizedAnnualImpactMillions}M</span><div class="metric-copy">Modeled realized annual impact across the current proof room.</div></div>
       </div>
+    </section>
+    <section class="section">
+      <h2>Product depth</h2>
+      <p class="lede">This is an efficiency proof room, not a savings-plan landing page. It helps leaders prove which savings actually landed, which owners followed through, where leakage remains, and which efficiency claims still need evidence before they are safe to repeat to a board, investor, or finance committee.</p>
+      <div class="grid">
+        <article class="card">
+          <div class="chip">Buyer value</div>
+          <h3>Separate realized savings from optimistic savings stories.</h3>
+          <p>Non-technical leaders get a board-readable view of annual impact, owner follow-through, proof completeness, leakage risk, and the next action required before a savings claim becomes defensible.</p>
+        </article>
+        <article class="card">
+          <div class="chip">Technical proof</div>
+          <h3>One model drives routes, APIs, CLI output, and screenshots.</h3>
+          <p>The same typed fixture powers the static site, JSON payloads, command-line summaries, tests, and proof screenshots, which keeps the surface reproducible instead of manually assembled.</p>
+        </article>
+        <article class="card">
+          <div class="chip">GTM story</div>
+          <h3>Designed for cost-takeout, margin expansion, and diligence.</h3>
+          <p>The page gives SaaS operators, consultants, product marketers, and investors a concrete way to discuss efficiency programs without hand-wavy claims about transformation value.</p>
+        </article>
+      </div>
+    </section>
+    <section class="section">
+      <h2>What these repos have in common</h2>
+      <p class="lede">The executive-intelligence repos turn fragmented systems work into buyer-readable operating evidence. Each one keeps a clear product promise, a scored model, reproducible artifacts, and direct links back to the broader Kinetic Gain portfolio so the public estate reads as a connected suite.</p>
+      <ul>
+        <li><strong>Board-ready language:</strong> executives can see the decision, risk, value, owner, and next move without parsing raw technical systems.</li>
+        <li><strong>Operator-readable proof:</strong> technical reviewers can inspect fixtures, scoring, routes, tests, APIs, and rendered outputs.</li>
+        <li><strong>Portfolio signal:</strong> every proof surface strengthens the map at <a href="${portfolioUrl}">portfolio.kineticgain.com</a> and the suite narrative at <a href="${suiteUrl}">suite.kineticgain.com</a>.</li>
+      </ul>
     </section>
     <section class="section">
       <h2>Efficiency ledger</h2>

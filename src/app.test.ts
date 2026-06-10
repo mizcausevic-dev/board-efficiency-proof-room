@@ -9,6 +9,11 @@ describe("board-efficiency-proof-room app", () => {
       const response = await request(createApp()).get(route);
       expect(response.status).toBe(200);
       expect(response.headers["content-type"]).toContain("text/html");
+      if (route === "/") {
+        expect(response.text).toContain("Product depth");
+        expect(response.text).toContain("What these repos have in common");
+        expect(response.text).toContain("portfolio.kineticgain.com");
+      }
     }
   });
 
